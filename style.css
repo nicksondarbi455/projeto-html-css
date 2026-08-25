@@ -53,7 +53,7 @@ ul{
     text-decoration: none;
     padding: 3px;
     color: var(--textoa);
-    background-color: #312f2f;
+    background-color: var(--textob);
 }
 .logo{
     display: flex;
@@ -75,5 +75,72 @@ ul{
     width: 100%;
 }
 .contimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
+    margin-top: 200px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0px #000000;
+    left: 50%;
+    height: 300px;
+    color: var(--textoa);
+    width: 40%px;
+    background-color: #302f3f6b;
+    transform: translateX(-50%);
+    
+    h1 {
+        margin: 0px 0px 40px 0px;
+    }
+    p {
+        margin: 0px 0px 30px 0px;
+    }
+    a {
+        display: flex;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #050505;
+    }
+}
+#cab1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top:15vh;
+    font-size: 25px;
+}
+.segundo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center;
+    gap: 15vh;
+}
+.card {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    flex-direction: column;
+}
+.card img {
+    height: 30vh;
+    width: 100%;
+}
+.card h2 {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.card p {
+    margin-top: 30px;
+    text-align: center;
+}
+.card a {
+    color: var(--textob);
+    text-decoration: none;
+    margin: 30px 0px 30px 0px;
 }
