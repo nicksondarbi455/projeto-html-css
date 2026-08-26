@@ -136,7 +136,7 @@ ul{
     width: 100%;
     margin: auto;
     max-width: 900px;
-    margin-bottom: 100px;
+
 }
 .card {
     display: flex;
@@ -366,6 +366,7 @@ ul{
    height: 120px;
     border-top: 1px solid #000000;
 }
+/* FEITO PELA IA */
 /* --- Botão Flutuante do WhatsApp --- */
 .btn-whatsapp {
     position: fixed; /* Mantém o botão fixo na tela */
@@ -386,7 +387,6 @@ ul{
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 /* FEITO PELA IA */
-
 /* Efeito de hover (quando passa o mouse por cima) */
 .btn-whatsapp:hover {
     transform: scale(1.1); /* Aumenta um pouquinho o tamanho */
